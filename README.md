@@ -1,8 +1,8 @@
 <div align="center">
 
-# Projet API SNCF - Android/Mobile
+# SNCF API Project - Android
 
-### Récupération des informations en temps réel sur les trains
+### Retrieval of real-time train information
 
 <img alt="Android" src="https://img.shields.io/badge/-Android-9FC138?style=flat&logo=android&logoColor=white" />
 <img alt="Android Studio" src="https://img.shields.io/badge/-Android_Studio-90BF58?style=flat&logo=android-studio&logoColor=white" />
@@ -13,42 +13,44 @@
 <table>
     <thead>
         <tr>
-            <th width="150px">Année</th>
-            <th width="150px">Filière</th>
-            <th width="300px">Matière</th>
-            <th width="300px">Projet</th>
-            <th width="350px">Collaborateurs</th>
+            <th width="150px">Year</th>
+            <th width="150px">Course</th>
+            <th width="300px">Subject</th>
+            <th width="300px">Project</th>
+            <th width="350px">Collaborators</th>
         </tr>
     </thead>
     <tbody>
         <tr>
         <td align="center">2022-2023</td>
         <td align="center">M2 IWOCS</td>
-        <td align="center">Programmation Android</td>
+        <td align="center">Android Programming</td>
         <td align="center">API SNCF</td>
-        <td align="center">Léa Gallier et Kévin Leroux</td>
+        <td align="center">Léa Gallier & <a href="https://github.com/lrxk">Kévin Leroux</a></td>
         </tr>
     </tbody>
 </table>
 
-### Plan
+### Contents
 
-1. [Présentation du projet](#présentation-du-projet)
-2. [Résultat](#résultat)
+1. [Project display](#project-display)
+2. [Result](#result)
 
-## Présentation du projet
+## Project display
 
-L'objectif de ce projet est de développer une application Android sous **Java** (ou Kotlin mais nous avons choisi Java) permettant de connaître les horaires de départ et d'arrivée des trains à la gare du Havre en utilisant l'**API** en temps réel de la **SNCF**.
+The objective of this project is to develop an Android application under **Java** (or Kotlin but we have chosen Java) allowing to know the departure and arrival times of trains at Le Havre station using the **API** in real time from **SNCF**.
 
-Notre application va être structuré de la manière suivante : nous aurons deux onglets, un onglet pour les départs et un onglet pour les arrivées. Sur chaque onglet on ne va afficher sur les *10* prochains trains en fonction de la **date du jour** et de **l'heure actuelle**. Enfin, pour chaque train on affichera bien sûr la date et l'heure mais également sa **destination** (par exemple Paris pour les départs et bien évidemment Le Havre pour les trains d'arrivée), le **type** de train (TER, RER, ...) et son **numéro**.
+Our application will be structured as follows: we will have two tabs, a tab for departures and a tab for arrivals. On each tab we will only display the next *10* trains according to the **today's date** and **the current time**. Finally, for each train, the date and time will of course be displayed, but also its **destination** (for example Paris for departures and of course Le Havre for arrival trains), the **type** of train (TER, RER, ...) and its **number**.
 
-Sur chaque onglet, nous aurons aussi la date du jour et l'heure actuelle d'affiché pour permettre à l'utilisateur d'être sûr de choisir le bon train.
+On each tab, we will also have the current date and time displayed to allow the user to be sure to choose the right train.
 
-## Résultat
+## Result
+
+The application interface is in French
 
 <div align="center">
 <img title="Preview for departures tab" src="preview_departures.png" alt="Preview | Departures" width="300px" />
 <img title="Preview for arrivals tab" src="preview_arrivals.png" alt="Preview | Arrivals" width="300px" />
 </div>
 
-N.b. : source du logo de l'application : <a href="https://www.flaticon.com/fr/icones-gratuites/train-a-grande-vitesse" title="Icône | Train à grande vitesse">Train à grande vitesse icônes créées par le graphiste Freepik - Flaticon</a>
+N.B. : app logo source : <a href="https://www.flaticon.com/fr/icones-gratuites/train-a-grande-vitesse" title="Icon | High-speed train">High speed train icons created by graphic designer Freepik - Flaticon</a>
