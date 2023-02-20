@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">API SCNF Gare Le Havre</string>
+
+    <!-- Text -->
+    <string name="tabitem_departures">Départs</string>
+    <string name="tabitem_arrivals">Arrivées</string>
+    <string name="date_departures">On est le ...</string>
+    <string name="hour_departures">Il est ...</string>
+    <string name="date_arrivals">On est le ...</string>
+    <string name="hour_arrivals">Il est ...</string>
+
+    <!-- Description -->
+    <string name="description_tablayout">Tab Layout</string>
+    <string name="description_viewpager">View Pager</string>
+
+</resources>

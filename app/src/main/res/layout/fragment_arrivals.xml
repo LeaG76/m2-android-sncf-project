@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentArrivals">
+
+    <TextView
+        android:id="@+id/text_date_arrivals"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/date_arrivals"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_hour_arrivals"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/hour_departures"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="22dp"
+        android:src="@drawable/bullet_train" />
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border" />
+
+    <View
+        android:id="@+id/line_1"
+        android:layout_width="1.5dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginStart="92dp"
+        android:background="@color/red" />
+
+    <TextView
+        android:id="@+id/text_hour_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="126dp"
+        android:layout_marginStart="40dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_route_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_detail_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="145dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp"
+        android:textStyle="italic"/>
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border" />
+
+    <View
+        android:id="@+id/line_2"
+        android:layout_width="1.5dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginStart="92dp"
+        android:background="@color/red" />
+
+    <TextView
+        android:id="@+id/text_hour_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        android:layout_marginStart="40dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_route_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_detail_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="195dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp"
+        android:textStyle="italic"/>
+
+    <View
+        android:id="@+id/view_3"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border" />
+
+    <View
+        android:id="@+id/line_3"
+        android:layout_width="1.5dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginStart="92dp"
+        android:background="@color/red" />
+
+    <TextView
+        android:id="@+id/text_hour_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="226dp"
+        android:layout_marginStart="40dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_route_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_detail_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp"
+        android:textStyle="italic"/>
+
+    <View
+        android:id="@+id/view_4"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border" />
+
+    <View
+        android:id="@+id/line_4"
+        android:layout_width="1.5dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="278dp"
+        android:layout_marginStart="92dp"
+        android:background="@color/red" />
+
+    <TextView
+        android:id="@+id/text_hour_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="276dp"
+        android:layout_marginStart="40dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_route_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_detail_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="295dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp"
+        android:textStyle="italic"/>
+
+    <View
+        android:id="@+id/view_5"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="323dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border" />
+
+    <View
+        android:id="@+id/line_5"
+        android:layout_width="1.5dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginStart="92dp"
+        android:background="@color/red" />
+
+    <TextView
+        android:id="@+id/text_hour_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="326dp"
+        android:layout_marginStart="40dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_route_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_detail_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="345dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp"
+        android:textStyle="italic"/>
+
+    <View
+        android:id="@+id/view_6"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="373dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border" />
+
+    <View
+        android:id="@+id/line_6"
+        android:layout_width="1.5dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="378dp"
+        android:layout_marginStart="92dp"
+        android:background="@color/red" />
+
+    <TextView
+        android:id="@+id/text_hour_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="376dp"
+        android:layout_marginStart="40dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_route_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="375dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_detail_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="395dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp"
+        android:textStyle="italic"/>
+
+    <View
+        android:id="@+id/view_7"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="423dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border" />
+
+    <View
+        android:id="@+id/line_7"
+        android:layout_width="1.5dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="428dp"
+        android:layout_marginStart="92dp"
+        android:background="@color/red" />
+
+    <TextView
+        android:id="@+id/text_hour_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="426dp"
+        android:layout_marginStart="40dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_route_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_detail_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="445dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp"
+        android:textStyle="italic"/>
+
+    <View
+        android:id="@+id/view_8"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="473dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border" />
+
+    <View
+        android:id="@+id/line_8"
+        android:layout_width="1.5dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="478dp"
+        android:layout_marginStart="92dp"
+        android:background="@color/red" />
+
+    <TextView
+        android:id="@+id/text_hour_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="476dp"
+        android:layout_marginStart="40dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_route_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="475dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_detail_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="495dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp"
+        android:textStyle="italic"/>
+
+    <View
+        android:id="@+id/view_9"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="523dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border" />
+
+    <View
+        android:id="@+id/line_9"
+        android:layout_width="1.5dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginStart="92dp"
+        android:background="@color/red" />
+
+    <TextView
+        android:id="@+id/text_hour_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="526dp"
+        android:layout_marginStart="40dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_route_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="525dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_detail_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="545dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp"
+        android:textStyle="italic"/>
+
+    <View
+        android:id="@+id/view_10"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="573dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border" />
+
+    <View
+        android:id="@+id/line_10"
+        android:layout_width="1.5dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="578dp"
+        android:layout_marginStart="92dp"
+        android:background="@color/red" />
+
+    <TextView
+        android:id="@+id/text_hour_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="576dp"
+        android:layout_marginStart="40dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_route_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="575dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_detail_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="595dp"
+        android:layout_marginStart="105dp"
+        android:text=""
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp"
+        android:textStyle="italic"/>
+
+</FrameLayout>
