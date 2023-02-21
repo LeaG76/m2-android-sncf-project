@@ -1,14 +1,13 @@
-<div align="center">
+<p align="center">
+    <h1 align="center">SNCF API Project - Android</h1>
+    <h4 align="center">Retrieval of real-time train information</h4>
+</p>
 
-# SNCF API Project - Android
-
-### Retrieval of real-time train information
-
-<img alt="Android" src="https://img.shields.io/badge/-Android-9FC138?style=flat&logo=android&logoColor=white" />
-<img alt="Android Studio" src="https://img.shields.io/badge/-Android_Studio-90BF58?style=flat&logo=android-studio&logoColor=white" />
-<img alt="Java" src="https://img.shields.io/badge/-Java-E61F24?style=flat&logo=java&logoColor=white" />
-
-</div>
+<p align="center">
+    <img alt="Android" src="https://img.shields.io/badge/-Android-9FC138?style=flat&logo=android&logoColor=white" />
+    <img alt="Android Studio" src="https://img.shields.io/badge/-Android_Studio-90BF58?style=flat&logo=android-studio&logoColor=white" />
+    <img alt="Java" src="https://img.shields.io/badge/-Java-E61F24?style=flat&logo=java&logoColor=white" />
+</p>
 
 <table>
     <thead>
