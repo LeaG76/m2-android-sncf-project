@@ -30,12 +30,7 @@
     </tbody>
 </table>
 
-### Contents
-
-1. [Project display](#project-display)
-2. [Result](#result)
-
-## Project display
+## About
 
 The objective of this project is to develop an Android application under **Java** (or Kotlin but we have chosen Java) allowing to know the departure and arrival times of trains at Le Havre station using the **API** in real time from **SNCF**.
 
