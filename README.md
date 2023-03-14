@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-    <img alt="Android" src="https://img.shields.io/badge/-Android-9FC138?style=flat&logo=android&logoColor=white" />
+    <img alt="Android" src="https://img.shields.io/badge/-Android_7.3.1-9FC138?style=flat&logo=android&logoColor=white" />
     <img alt="Android Studio" src="https://img.shields.io/badge/-Android_Studio-90BF58?style=flat&logo=android-studio&logoColor=white" />
     <img alt="Java" src="https://img.shields.io/badge/-Java-E61F24?style=flat&logo=java&logoColor=white" />
 </p>
